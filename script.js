@@ -4,7 +4,7 @@ window.addEventListener("load", audioPlay)
 
 
 function audioPlay(){
-	let audio = document.getElementById("myAudio");
+	let audi = document.getElementById("myAudio");
 	audio.play()
 	document.getElementById("sound").addEventListener("click", function(){
 			audio.pause()
