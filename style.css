@@ -1,6 +1,7 @@
 /* font link */
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 #allah_txt{
   color: #ff077a; 
@@ -18,6 +19,44 @@
     display: flex;
     justify-content: center;
 }
+div#footerSection {
+    background: #FF0044;
+    box-sizing: inherit;
+    padding: 1px 0px;
+    color: white;
+    font-family: 'circular';
+}
+
+div#footerSection h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+div#footerSection h6 a:hover {
+    color: #fff;
+}
+
+#sscText{
+    text-transform: uppercase;
+    font-size: 15px;
+    color:#FF0044;
+    font-family: 'Alkatra', cursive !important;
+    margin-bottom: -25px;
+    margin-top: 40;
+}
+
+#wishingLetter{
+    text-transform: capitalize;
+    text-align: left;
+    font-family: 'Satisfy', cursive;
+    width: 75%;
+   margin: auto;
+   
+}
+#letPrsNam{
+    color:#34af23
+}
+
 i {
     color: #ff2323;
 }

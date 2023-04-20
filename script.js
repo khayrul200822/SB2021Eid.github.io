@@ -9,7 +9,10 @@ function audioPlay(){
 }
 
 
+// letter person name 
+let prsName = document.getElementById("letPrsNam");
 
+prsName.innerHTML = a
 
 
 

@@ -104,7 +104,6 @@
       }
       if (A!=bits) setTimeout("bang("+N+")", speed);
     }
-    
     function stepthrough(N) { 
       var i, M, Z;
       var oldx=Xpos[N+"r"];
