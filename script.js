@@ -6,6 +6,12 @@ window.addEventListener("load", audioPlay)
 function audioPlay(){
 	let audio = document.getElementById("myAudio");
 	audio.play()
+	document.getElementById("sound").addEventListener("click", function(){
+			audio.pause()
+			console.log("sound off")
+	} )
+	
+
 }
 
 
@@ -14,6 +20,13 @@ let prsName = document.getElementById("letPrsNam");
 
 prsName.innerHTML = a
 
+//for sound icon
+
+	// function getMute(){
+	// 	let audio = document.getElementById("myAudio");
+	// 	audio.pause()
+	// 	console.log("sound stoped")
+	// }
 
 
 //----Countdown time Setting ----**
