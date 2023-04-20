@@ -1,13 +1,16 @@
 
-
-window.addEventListener("load", audioPlay)
-
-
-function audioPlay(){
+let alt = alert("[Notes: If you want to enjoy with audio then one click on your screen. And if you don't want to, then double click on the screen]")
+window.addEventListener("click", function (){
 	let audio = document.getElementById("myAudio");
-	audio.play();
+	audio.play()
+	console.log("audio start")
+})
+window.addEventListener("dblclick", function (){
+	let audio = document.getElementById("myAudio");
+	audio.pause()
+	console.log("audio stoped")
+})
 
-}
 
 
 // letter person name 
