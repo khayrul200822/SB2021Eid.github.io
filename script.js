@@ -4,13 +4,8 @@ window.addEventListener("load", audioPlay)
 
 
 function audioPlay(){
-	let audi = document.getElementById("myAudio");
+	let audio = document.getElementById("myAudio");
 	audio.play()
-	document.getElementById("sound").addEventListener("click", function(){
-			audio.pause()
-			console.log("sound off")
-	} )
-	
 
 }
 
