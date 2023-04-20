@@ -30,7 +30,7 @@ prsName.innerHTML = a
 //----Countdown time Setting ----**
 
   // Set the date we're counting down to
-  var countDownDate = new Date("April 22, 2023 00:00:00").getTime();
+  var countDownDate = new Date("April 21, 2023 03:08:00").getTime();
 
   // Update the count down every 01 second
   var x = setInterval(function () {
@@ -54,9 +54,13 @@ prsName.innerHTML = a
 	// If the count down is finished, write some text 
 	if (distance < 0) {
 	  clearInterval(x);
-	  document.getElementById("demo").innerHTML = "EXPIRED";
+	  let demoTxt =  document.getElementById("demo");
+	  demoTxt.innerHTML = "Today Eid-Ul-fitr";
+	  demoTxt.style="font-family: 'Rubik Wet Paint', cursive;font-size: 25px;";
+	 
+	 
 	}
-  }, 1000);
+  });
 
 
 
