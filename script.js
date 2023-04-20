@@ -5,7 +5,7 @@ window.addEventListener("load", audioPlay)
 
 function audioPlay(){
 	let audio = document.getElementById("myAudio");
-	audio.play()
+	audio.play();
 
 }
 
