@@ -26,6 +26,15 @@
     position: absolute;
 
 }
+div#footerSection span{
+    font-size: 11px;
+
+}
+div#footerSection #fuadTxt{
+    color: white;
+}
+
+
 #allah_txt{
   color: #ff077a; 
   text-align:center;
