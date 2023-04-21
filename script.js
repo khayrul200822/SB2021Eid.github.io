@@ -30,7 +30,7 @@ prsName.innerHTML = a
 //----Countdown time Setting ----**
 
   // Set the date we're counting down to
-  var countDownDate = new Date("April 22, 2023 00:00:00").getTime();
+  var countDownDate = new Date("April 21, 2023 00:00:00").getTime();
 
   // Update the count down every 01 second
   var x = setInterval(function () {
