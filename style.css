@@ -26,6 +26,11 @@
     position: absolute;
 
 }
+div#footerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 div#footerSection span{
     font-size: 11px;
 
@@ -33,7 +38,9 @@ div#footerSection span{
 div#footerSection #fuadTxt{
     color: white;
 }
-
+div#footerSection #fuadTxt:hover{
+color:#000
+}
 
 #allah_txt{
   color: #ff077a; 
@@ -54,17 +61,18 @@ div#footerSection #fuadTxt{
 div#footerSection {
     background: #FF0044;
     box-sizing: inherit;
-    padding: 1px 0px;
+    padding: 10px 0px;
     color: white;
     font-family: 'circular';
+   
 }
 
-div#footerSection h6 a {
+div#footerSection span a {
     text-decoration: none;
     color: black;
 }
 
-div#footerSection h6 a:hover {
+div#footerSection span a:hover {
     color: #fff;
 }
 
