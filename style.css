@@ -477,14 +477,14 @@ h3 {
 
 .cssload-preloader .cssload-preloader-box>div {
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     background: rgb(204, 204, 204);
     float: left;
     text-align: center;
     line-height: 16px;
     font-family: Verdana;
-    font-size: 11px;
+    font-size: 13px;
     color: rgb(255, 255, 255);
 }
 
