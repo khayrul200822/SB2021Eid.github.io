@@ -37,6 +37,7 @@ div#footerSection span{
 }
 div#footerSection #fuadTxt{
     color: white;
+    font-weight: bold;
 }
 div#footerSection #fuadTxt:hover{
 color:#000
